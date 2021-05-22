@@ -26,6 +26,21 @@ def main():
 
     synaptic_weights = 2 * random.random((7, 1)) - 1
     print(synaptic_weights)
+    # t()
 
-main()
+
+def t():
+    ls = [random.randint(0,2) for i in range(7)]
+    mx = []
+    for i in range(8):
+        mx.append([random.randint(0,2) for i in range(7)])
+
+    for i in range(len(mx)):
+        print(mx[i])
+
+    # print(mx)
+
+if __name__ == "__main__":
+
+    main()
 
